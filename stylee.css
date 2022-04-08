@@ -1,0 +1,324 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    position:relative;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: url(gambar/metabolic.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.judul{
+    /* background-color: aqua; */
+    margin: 0 auto;
+    width: 800px;
+    height: 40px;
+    padding: 10px;
+    z-index: 2;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: larger;
+}
+
+.judul h1{
+    text-align: center;
+}
+
+
+/* bagian menu bawah */
+.menu{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    position: absolute;
+    /* left: 50%; */
+    /* transform: translate(-50%, -0%); */
+     bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+
+        
+}
+
+.lingkar{
+    
+    height:85px;
+    width:85px;
+    border-radius: 100%;
+    float: left;
+    /* margin: 0 auto;  */
+    margin-top: 9px;
+    overflow: hidden;
+    display: flex;
+    margin-right: 20px;
+}
+.home{
+    position: absolute;
+    z-index: 3;
+    left: 90%;
+    margin-top: 10px;
+    display: flex;
+}
+
+.wrap{
+    border-radius: 100%;
+    height:60px;
+    width:60px;
+    float: right;
+    background: url(gambar/home.png); 
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+
+}
+
+.icon1{
+    width: 100%;
+    background: url(gambar/petunjuk.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.icon2{
+    width: 100%;
+    background: url(gambar/kd.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.icon3{
+    width: 100%;
+    background: url(gambar/materi.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.icon4{
+    width: 100%;
+    background: url(gambar/vidio.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.icon5{
+    width: 100%;
+    background: url(gambar/game.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.icon6{
+    width: 100%;
+    background: url(gambar/asah.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.icon7{
+    width: 100%;
+    background: url(gambar/team.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.menu .lingkar:hover{
+    cursor: pointer;
+}
+
+.overlay{
+    display: flex;
+    position: absolute;
+    height:85px;
+    width:85px;
+    border-radius: 100%;
+    float: left;
+    /* margin: 0 auto;  */
+    display: flex;
+    margin-right: 20px;
+    opacity: 0;
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0; */
+    transition: opacity 0.4s ease-in-out;
+    background:greenyellow;
+    cursor: pointer;
+}
+
+.content{
+    position: absolute;
+     top: 50%;
+    left: 50%;
+     transform: translate(-50%,-50%); 
+    color: white;
+    text-align: center;
+}
+
+.lingkar:hover .overlay{
+    opacity: 0.8;
+}
+
+
+/* untuk latar putih */
+.latar{
+    width: 95%;
+    height: 83vh;
+    /* padding: 20px; */
+    background:whitesmoke;
+    /* code di bawah ini akan membuat div berada di tengah-tengah */
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    overflow: hidden;
+}
+
+
+.latar  .tag p{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: 'Rampart One', cursive;
+    
+}
+
+.tag{
+    border-radius: 100%;
+    height:50px;
+    width:70px;
+    background: url(gambar/fire.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 45px;
+}
+
+/* css untuk halaman home */
+.semangat{
+    width: 90%;
+    height: 60vh;
+    position: relative;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+
+
+}
+
+
+/* css untuk halaman petunjuk */
+.petunjuk{
+
+    width: 90%;
+    height: 60vh;
+    /* padding: 20px; */
+    background:#caff78;
+    /* code di bawah ini akan membuat div berada di tengah-tengah */
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+}
+
+.petunjuk p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4vh;
+    padding-top: 30px;
+    margin-left: 40px;
+}
+
+.petunjuk h3{
+    text-align: center;
+    color: black;
+    padding-top: 5px;
+    font-family: 'Rampart One', cursive;
+    font-size: 5vh;
+}
+
+/* css halaman materi */
+
+.materi{
+    width: 90%;
+    height: 60vh;
+    /* code di bawah ini akan membuat div berada di tengah-tengah */
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+}
+.container{
+    position: relative;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-template-rows: minmax(100px,auto);
+    grid-auto-flow: dense;
+    grid-gap: 10px;
+}
+
+.container .box{
+    color: #fff;
+    background:#4d798a;
+    display: grid;
+    font-size: 20px;
+    place-items: center;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.container .box:hover{
+    background:#74eafc;
+    cursor: pointer;
+}
+
+.container .box img{
+    position: relative;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.container .box:nth-child(1){
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.container .box:nth-child(2){
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.container .box:nth-child(3){
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.container .box:nth-child(4){
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.container .box:nth-child(5){
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+
