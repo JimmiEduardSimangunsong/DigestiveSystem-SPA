@@ -38,7 +38,12 @@
             </div>
         </div>
     </div>
-    <div id="isinya"></div>
+
+    <!-- <div id="isinya"></div> -->
+    <div class="isimateri">
+    
+    </div>
+
   </div>
 </div>
 

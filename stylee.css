@@ -185,6 +185,7 @@ body{
     transform: translate(-50%, -50%);
     display: flex;
     overflow: hidden;
+
 }
 
 
@@ -202,7 +203,8 @@ body{
     background: url(gambar/fire.png);
     background-size: cover;
     background-position: center;
-    margin-left: 45px;
+    margin-left: 50px;
+
 }
 
 /* css untuk halaman home */
@@ -256,19 +258,20 @@ body{
 
 .materi{
     width: 90%;
-    height: 60vh;
+    height: 75vh;
     /* code di bawah ini akan membuat div berada di tengah-tengah */
     position: absolute;
     top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
+    background-color: black;
+    margin-top: 40px;
+    
+
 
 }
 
-.materi1{
-    background: url(gambar/zatmakanan.jpg);
-}
 .container{
     position: relative;
     max-width: 100%;
@@ -384,5 +387,13 @@ body{
 .zatmakaanan .boxisi:nth-child(6){
     grid-column: span 1;
     grid-row: span 1;
+}
+
+/* isi materi di zat makanan */
+.isimateri {
+    margin-top: 20px;
+    background: blue;
+    width: 90%;
+    height: 60vh;
 }
 
