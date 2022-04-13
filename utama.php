@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pencernaan</title>
-    <link rel="stylesheet" type="text/css" href="stylee.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     
     <!-- UNTUK JUDUL BESAR -->
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@700&family=Fredericka+the+Great&family=Poppins:wght@100&display=swap" rel="stylesheet">
