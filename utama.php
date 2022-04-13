@@ -96,6 +96,8 @@
               $('#konten').load('kikd.php');
             }else if(menu == "icon3"){
               $('#konten').load('materi.php');
+            }else if(menu == "icon4"){
+              $('#konten').load('vidio.php');
             }
 
       });

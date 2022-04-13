@@ -3,37 +3,37 @@
 <div class="materi">
     <div class="zatmakanan">
         <div class="boxisi">
-            <div class="isinya">
+            <div class="isinya" id="back">
                 <img src="gambar/left.png" alt=""> 
             </div>
         </div>
         <div class="boxisi">
-            <div class="isinya">
+            <div class="isinya" id="karbohidrat">
                 <p>KARBOHIDRAT<p>   
             </div>
         </div>
         <div class="boxisi">
-            <div class="isinya">
+            <div class="isinya" id="lemak">
                 <p>LEMAK<p>   
             </div>
         </div>
         <div class="boxisi">
-            <div class="isinya">
+            <div class="isinya" id=""protein>
                 <p>PROTEIN<p> 
             </div>
         </div>
         <div class="boxisi">
-            <div class="isinya">
+            <div class="isinya" id="vitamin" >
                 <p>VITAMIN<p>   
             </div>
         </div>
         <div class="boxisi">
-            <div class="isinya">
+            <div class="isinya" id=""mineral>
                 <p>MINERAL<p>   
             </div>
         </div>
         <div class="boxisi">
-            <div class="isinya">
+            <div class="isinya" id="air">
                 <p>AIR<p>   
             </div>
         </div>
@@ -69,3 +69,44 @@
 
   });
 }); 
+
+</script>
+
+
+<script type="text/javascript">
+       $(document).ready(function () {
+       $('.isimateri').load('karbohidrat.php');
+
+      $('.boxisi').click(function (e) { 
+          e.preventDefault();
+
+          var menu =  $(this).find('div').attr('id');
+          console.log(menu)
+
+          if(menu == "lemak"){
+              $('.isimateri').load('lemak.php');
+            }else if(menu == "karbohidrat"){
+              $('.isimateri').load('karbohidrat.php');
+            }
+
+      });
+    }); 
+
+    </script>
+
+<script type="text/javascript">
+       $(document).ready(function () {
+        $('.boxisi').click(function (e) { 
+          e.preventDefault();
+
+          var menu =  $(this).find('div').attr('id');
+          console.log(menu)
+
+          if(menu == "back"){
+              $('#konten').load('materi.php');
+            }
+
+      });
+    }); 
+
+    </script>

@@ -265,7 +265,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    background-color: black; 
+    /* background-color: black;  */
     margin-top: 60px;
     justify-content: center;
     
@@ -393,7 +393,7 @@ body{
 /* isi materi di zat makanan */
 .isimateri {
     margin-top: 20px;
-    background: blue;
+    background: beige;
     width: 90%;
     height: 60vh;
     margin-left: 60px;
