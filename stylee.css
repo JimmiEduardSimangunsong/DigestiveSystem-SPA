@@ -327,8 +327,62 @@ body{
 
 
 /* css untuk materi zat makanan */
-.isimateri{
-    
+.zatmakanan{
+    position: relative;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+    grid-template-rows: minmax(50px,auto);
+    grid-auto-flow: dense;
+    grid-gap: 10px;
+    justify-content: center;
+}
+.zatmakanan .boxisi:hover{
+    background:#74eafc;
+    cursor: pointer;
+}
+.zatmakanan .boxisi img{
+    position: relative;
+    max-width: 50px;
 }
 
+
+.zatmakanan .boxisi{
+    color: #fff;
+    background:#4d798a;
+    display: grid;
+    font-size: 15px;
+    place-items: center;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.zatmakaanan .boxisi:nth-child(1){
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.zatmakaanan .boxisi:nth-child(2){
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.zatmakaanan .boxisi:nth-child(3){
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.zatmakaanan .boxisi:nth-child(4){
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.zatmakaanan .boxisi:nth-child(5){
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.zatmakaanan .boxisi:nth-child(6){
+    grid-column: span 1;
+    grid-row: span 1;
+}
 
