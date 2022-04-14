@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="boxisi">
-            <div class="isinya" id=""protein>
+            <div class="isinya" id="protein">
                 <p>PROTEIN<p> 
             </div>
         </div>
@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="boxisi">
-            <div class="isinya" id=""mineral>
+            <div class="isinya" id="mineral">
                 <p>MINERAL<p>   
             </div>
         </div>
@@ -87,6 +87,14 @@
               $('.isimateri').load('lemak.php');
             }else if(menu == "karbohidrat"){
               $('.isimateri').load('karbohidrat.php');
+            }else if(menu == "protein"){
+              $('.isimateri').load('protein.php');
+            }else if(menu == "vitamin"){
+              $('.isimateri').load('vitamin.php');
+            }else if(menu == "mineral"){
+              $('.isimateri').load('mineral.php');
+            }else if(menu == "air"){
+              $('.isimateri').load('air.php');
             }
 
       });

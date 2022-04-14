@@ -198,7 +198,7 @@ body{
 
 .tag{
     border-radius: 100%;
-    height:50px;
+    height:60px;
     width:70px;
     background: url(gambar/fire.png);
     background-size: cover;
@@ -265,8 +265,9 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    /* background-color: black; */
-    margin-top: 40px;
+    /* background-color: black;  */
+    margin-top: 60px;
+    justify-content: center;
     
 
 
@@ -360,31 +361,31 @@ body{
     transition: 0.5s;
 }
 
-.zatmakaanan .boxisi:nth-child(1){
+.zatmakanan .boxisi:nth-child(1){
     grid-column: span 1;
     grid-row: span 1;
 }
 
-.zatmakaanan .boxisi:nth-child(2){
+.zatmakanan .boxisi:nth-child(2){
     grid-column: span 1;
     grid-row: span 1;
 }
 
-.zatmakaanan .boxisi:nth-child(3){
+.zatmakanan .boxisi:nth-child(3){
     grid-column: span 1;
     grid-row: span 1;
 }
-.zatmakaanan .boxisi:nth-child(4){
-    grid-column: span 1;
-    grid-row: span 1;
-}
-
-.zatmakaanan .boxisi:nth-child(5){
+.zatmakanan .boxisi:nth-child(4){
     grid-column: span 1;
     grid-row: span 1;
 }
 
-.zatmakaanan .boxisi:nth-child(6){
+.zatmakanan .boxisi:nth-child(5){
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.zatmakanan .boxisi:nth-child(6){
     grid-column: span 1;
     grid-row: span 1;
 }
@@ -392,8 +393,10 @@ body{
 /* isi materi di zat makanan */
 .isimateri {
     margin-top: 20px;
-    background: blue;
+    background:beige;
     width: 90%;
     height: 60vh;
+    margin-left: 60px;
+
 }
 
