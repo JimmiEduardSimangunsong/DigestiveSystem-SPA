@@ -1,3 +1,5 @@
 <center>
-<img src="gambar/sistemorgan.png" />
+    <br>
+    <br>
+<img src="gambar/sistemorgan.jpg" />
 <center>

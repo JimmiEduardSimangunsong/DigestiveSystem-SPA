@@ -407,7 +407,7 @@ body{
     position: relative;
     max-width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(130px,1fr));
     grid-template-rows: minmax(50px,auto);
     grid-auto-flow: dense;
     grid-gap: 10px;
@@ -467,12 +467,12 @@ body{
     background:beige;
     width: 90%;
     height: 60vh;
-    margin-left: 60px;
+    margin-left: 60px; 
     display: grid;
     grid-template-areas: "struktur keterangan"; 
-    gap:20px;
+    gap:10px;
     margin-top: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr)); 
     justify-content: center;
 
 }
@@ -481,6 +481,8 @@ body{
     grid-area: struktur;
     min-height: 150px;
     padding-left: 60px;
+    background: #caff78;
+    width: 400px;
 }
 .struktur img{
     max-width: 100%;
@@ -490,8 +492,8 @@ body{
 
 .keterangan{
     grid-area: keterangan;
-    margin-top: 40px;
-    padding-right: 60px;
+    background:goldenrod;
+    width: 600px;
 }
 
 

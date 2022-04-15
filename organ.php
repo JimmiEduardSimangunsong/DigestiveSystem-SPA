@@ -8,8 +8,18 @@
             </div>
         </div>
         <div class="boxnya">
+            <div class="isinya" id="sistem">
+                <p>GAMBAR SISTEM ORGAN PENCERNAAN<p>   
+            </div>
+        </div>
+        <div class="boxnya">
             <div class="isinya" id="mulut">
                 <p>MULUT<p>   
+            </div>
+        </div>
+        <div class="boxnya">
+            <div class="isinya" id="hati">
+                <p>HATI<p>   
             </div>
         </div>
         <div class="boxnya">
@@ -95,6 +105,8 @@
               $('.isimateri2').load('usushalus.php');
             }else if(menu == "anus"){
               $('.isimateri2').load('anus.php');
+            }else if(menu == "sistem"){
+              $('.isimateri2').load('MateriOrganPencernaan/sistemorgan.php');
             }
 
       });
