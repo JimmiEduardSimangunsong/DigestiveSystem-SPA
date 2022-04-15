@@ -75,6 +75,14 @@
 
           if(menu == "materi1"){
               $('#konten').load('zatmakanan.php');
+            }else if(menu == "materi2"){
+              $('#konten').load('organ.php');
+            }else if(menu == "materi3"){
+              $('#konten').load('proses.php');
+            }else if(menu == "materi4"){
+              $('#konten').load('penyakit.php');
+            }else if(menu == "materi5"){
+              $('#konten').load('rawat.php');
             }
 
       });

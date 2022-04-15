@@ -400,3 +400,98 @@ body{
 
 }
 
+
+/* css untuk materi organ pencernaan */
+
+.organ{
+    position: relative;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+    grid-template-rows: minmax(50px,auto);
+    grid-auto-flow: dense;
+    grid-gap: 10px;
+    justify-content: center;
+}
+.organ .boxnya:hover{
+    background:#74eafc;
+    cursor: pointer;
+}
+.organ .boxnya img{
+    position: relative;
+    max-width: 50px;
+}
+
+
+.organ .boxnya{
+    color: #fff;
+    background:#4d798a;
+    display: grid;
+    font-size: 15px;
+    place-items: center;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.organ .boxnya:nth-child(1){
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.organ .boxnya:nth-child(2){
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.organ .boxnya:nth-child(3){
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.organ .boxnya:nth-child(4){
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.organ .boxnya:nth-child(5){
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.organ .boxnya:nth-child(6){
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+/* isi materi di zat makanan */
+.isimateri2 {
+    background:beige;
+    width: 90%;
+    height: 60vh;
+    margin-left: 60px;
+    display: grid;
+    grid-template-areas: "struktur keterangan"; 
+    gap:20px;
+    margin-top: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); 
+    justify-content: center;
+
+}
+
+.struktur{
+    grid-area: struktur;
+    min-height: 150px;
+    padding-left: 60px;
+}
+.struktur img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.keterangan{
+    grid-area: keterangan;
+    margin-top: 40px;
+    padding-right: 60px;
+}
+
+
