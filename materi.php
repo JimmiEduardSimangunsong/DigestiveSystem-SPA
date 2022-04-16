@@ -25,7 +25,7 @@
         <div class="box">
             <div class="isi" id="materi4">
                 <img src="gambar/penyakit.png" alt="">
-                <p>Penyakit Pada Alat Pencernaan</p>
+                <p>Gangguan Sistem Pencernaan</p>
             </div>
         </div>
         <div class="box">
@@ -80,7 +80,7 @@
             }else if(menu == "materi3"){
               $('#konten').load('proses.php');
             }else if(menu == "materi4"){
-              $('#konten').load('penyakit.php');
+              $('#konten').load('gangguan.php');
             }else if(menu == "materi5"){
               $('#konten').load('rawat.php');
             }

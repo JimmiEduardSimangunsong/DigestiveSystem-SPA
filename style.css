@@ -330,6 +330,13 @@ body{
 }
 
 
+/* pengenalan */
+.pengenalan img{
+    max-width: 100%;
+    height: auto;
+}
+
+
 /* css untuk materi zat makanan */
 .zatmakanan{
     position: relative;
