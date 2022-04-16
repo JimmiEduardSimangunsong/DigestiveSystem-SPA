@@ -407,7 +407,7 @@ body{
     position: relative;
     max-width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(130px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
     grid-template-rows: minmax(50px,auto);
     grid-auto-flow: dense;
     grid-gap: 10px;
@@ -481,7 +481,6 @@ body{
     grid-area: struktur;
     min-height: 150px;
     padding-left: 60px;
-    background: #caff78;
     width: 400px;
 }
 .struktur img{
@@ -492,7 +491,6 @@ body{
 
 .keterangan{
     grid-area: keterangan;
-    background:goldenrod;
     width: 600px;
 }
 

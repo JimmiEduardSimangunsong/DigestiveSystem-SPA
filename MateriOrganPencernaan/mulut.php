@@ -1,5 +1,5 @@
 <div class="struktur">
-    <h1>Struktur Mulut</h1>
+    <h1>Bagian Mulut yang Berperan dalam Sistem Pencernaan</h1>
     <img src="gambar/mulut.jpg" />    
 </div>
 <div class="keterangan">

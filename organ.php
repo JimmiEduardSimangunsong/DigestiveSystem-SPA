@@ -42,11 +42,6 @@
                 <p>USUS BESAR<p>   
             </div>
         </div>
-        <div class="boxnya">
-            <div class="isinya" id="anus">
-                <p>ANUS<p>   
-            </div>
-        </div>
     </div>
 
     <!-- <div id="isinya"></div> -->
@@ -95,16 +90,16 @@
 
           if(menu == "mulut"){
               $('.isimateri2').load('MateriOrganPencernaan/mulut.php');
+            }else if(menu == "hati"){
+              $('.isimateri2').load('MateriOrganPencernaan/hati.php');
             }else if(menu == "kerongkongan"){
-              $('.isimateri2').load('kerongkongan.php');
+              $('.isimateri2').load('MateriOrganPencernaan/kerongkongan.php');
             }else if(menu == "lambung"){
-              $('.isimateri2').load('lambung.php');
+              $('.isimateri2').load('MateriOrganPencernaan/lambung.php');
             }else if(menu == "ususbesar"){
-              $('.isimateri2').load('ususbesar.php');
+              $('.isimateri2').load('MateriOrganPencernaan/ususbesar.php');
             }else if(menu == "usushalus"){
-              $('.isimateri2').load('usushalus.php');
-            }else if(menu == "anus"){
-              $('.isimateri2').load('anus.php');
+              $('.isimateri2').load('MateriOrganPencernaan/usushalus.php');
             }else if(menu == "sistem"){
               $('.isimateri2').load('MateriOrganPencernaan/sistemorgan.php');
             }

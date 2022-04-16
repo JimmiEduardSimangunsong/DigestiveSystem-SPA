@@ -75,7 +75,7 @@
 
 <script type="text/javascript">
        $(document).ready(function () {
-       $('.isimateri').load('karbohidrat.php');
+       $('.isimateri').load('MateriZatMakanan/karbohidrat.php');
 
       $('.boxisi').click(function (e) { 
           e.preventDefault();
@@ -84,17 +84,17 @@
           console.log(menu)
 
           if(menu == "lemak"){
-              $('.isimateri').load('lemak.php');
+              $('.isimateri').load('MateriZatMakanan/lemak.php');
             }else if(menu == "karbohidrat"){
-              $('.isimateri').load('karbohidrat.php');
+              $('.isimateri').load('MateriZatMakanan/karbohidrat.php');
             }else if(menu == "protein"){
-              $('.isimateri').load('protein.php');
+              $('.isimateri').load('MateriZatMakanan/protein.php');
             }else if(menu == "vitamin"){
-              $('.isimateri').load('vitamin.php');
+              $('.isimateri').load('MateriZatMakanan/vitamin.php');
             }else if(menu == "mineral"){
-              $('.isimateri').load('mineral.php');
+              $('.isimateri').load('MateriZatMakanan/mineral.php');
             }else if(menu == "air"){
-              $('.isimateri').load('air.php');
+              $('.isimateri').load('MateriZatMakanan/air.php');
             }
 
       });
