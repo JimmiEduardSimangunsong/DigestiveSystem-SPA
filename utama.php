@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pencernaan</title>
     <link rel="stylesheet" type="text/css" href="stylee.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     
     <!-- UNTUK JUDUL BESAR -->
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@700&family=Fredericka+the+Great&family=Poppins:wght@100&display=swap" rel="stylesheet">
@@ -100,6 +102,7 @@
               $('#konten').load('vidio.php');
             }else if(menu == "icon6"){
               $('#konten').load('quiz.php');
+            }
 
       });
     }); 
