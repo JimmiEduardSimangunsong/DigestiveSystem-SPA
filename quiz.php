@@ -1,32 +1,32 @@
 <div class="latar">
-<a class="tag" ><p>MATERI</p></a>
+<a class="tag" ><p>Quizz</p></a>
 
 
 <div class="materi">
 
  <!-- start Quiz button -->
- <div class="start_btn"><button>Start Quiz</button></div>
+ <div class="start_btn"><button>Mulai Kuis</button></div>
     <!-- Info Box -->
     <div class="info_box">
-        <div class="info-title"><span>Some Rules of this Quiz</span></div>
+        <div class="info-title"><span>Beberapa Peraturan Dalam Kuis Ini</span></div>
         <div class="info-list">
-            <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
-            <div class="info">2. Once you select your answer, it can't be undone.</div>
-            <div class="info">3. You can't select any option once time goes off.</div>
-            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
-            <div class="info">5. You'll get points on the basis of your correct answers.</div>
+            <div class="info">1. Kamu hanya akan mendapat waktu<span>15 detik</span> per setiap soal.</div>
+            <div class="info">2.Setelah anda memilih jawaban,jawaban tidak dapat diurungkan.</div>
+            <div class="info">3. Anda tidak dapat memilih opsi apa pun setelah waktu Habis.</div>
+            <div class="info">4. Anda tidak dapat keluar dari Kuis saat Anda Mengerjakan.</div>
+            <div class="info">5.Anda akan mendapatkan poin berdasarkan jawaban yang benar.</div>
         </div>
         <div class="buttons">
-            <button class="quit">Exit Quiz</button>
-            <button class="restart">Continue</button>
+            <button class="quit">Keluar Quiz</button>
+            <button class="restart">Lanjutkan</button>
         </div>
     </div>
     <!-- Quiz Box -->
     <div class="quiz_box">
         <header>
-            <div class="title">Awesome Quiz Application</div>
+            <div class="title">Kuis Pencernaan</div>
             <div class="timer">
-                <div class="time_left_txt">Time Left</div>
+                <div class="time_left_txt">Sisa Waktu</div>
                 <div class="timer_sec">15</div>
             </div>
             <div class="time_line"></div>
@@ -44,7 +44,7 @@
             <div class="total_que">
                 <!-- Here I've inserted Question Count Number from JavaScript -->
             </div>
-            <button class="next_btn">Next Que</button>
+            <button class="next_btn">Selanjutnya</button>
         </footer>
     </div>
     <!-- Result Box -->
@@ -52,13 +52,13 @@
         <div class="icon">
             <i class="fas fa-crown"></i>
         </div>
-        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="complete_text">Kamu Telah Menyelesaikan Seluruh Kuis!</div>
         <div class="score_text">
             <!-- Here I've inserted Score Result from JavaScript -->
         </div>
         <div class="buttons">
-            <button class="restart">Replay Quiz</button>
-            <button class="quit">Quit Quiz</button>
+            <button class="restart">Ulangi Kuis</button>
+            <button class="quit">Keluar Kuis</button>
         </div>
     </div>
     <!-- Inside this JavaScript file I've inserted Questions and Options only -->

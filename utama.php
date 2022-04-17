@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pencernaan</title>
-    <link rel="stylesheet" type="text/css" href="stylee.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     
@@ -59,7 +59,7 @@
             <a class="icon5"></a>
             <div class="overlay">
                 <div class="content">
-                    <h3>Game</h3>
+                    <h3>Quiz</h3>
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@
             <a class="icon6"></a>
             <div class="overlay">
                 <div class="content">
-                    <h3>Quiz</h3>
+                    <h3>Latihan</h3>
                 </div>
             </div>
         </div>
@@ -100,8 +100,10 @@
               $('#konten').load('materi.php');
             }else if(menu == "icon4"){
               $('#konten').load('vidio.php');
-            }else if(menu == "icon6"){
+            }else if(menu == "icon5"){
               $('#konten').load('quiz.php');
+            }else if(menu == "icon6"){
+              $('#konten').load('latihan.php');
             }
 
       });

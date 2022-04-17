@@ -2,57 +2,57 @@
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "Nama bakteri yang membantu dalam proses yang terjadi di usus besar adalah?",
+    answer: "Bakteri Escherichia coli",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "Bakteri Escherichia",
+      "Bakteri Escherichia coli",
+      "Bakteri probiotik",
+      "Bakteri prebiotik"
     ]
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "Usus halus berada di antara....?",
+    answer: "Lambung dan usus besar",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "Lambung dan usus besar",
+      "Lambung dan usus kecil",
+      "Lambung dan usus buntu",
+      "Lambung dan kerongkongan"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "Gerakan peristaltik terdapat di ....?",
+    answer: "Esofagus",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "Usus 12 jari",
+      "Pankreas",
+      "Esofagus",
+      "Tenggorokkan"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "Usus halus terdiri dari 3 bagian yaitu ...?",
+    answer: "Duodenum, Jejunum, Ileum",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "Usus besar, Usus panjang, Usus 12 jari",
+      "Duodenum, Jejunum, Ileum",
+      "Ileum, Iler, Pankreas",
+      "Duodenum, Iritenum, ileum"
     ]
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "Kelainan pada sistem pencernaan yang disebabkan jumlah asam klorida dalam lambung berlebihan disebut …?",
+    answer: "Maag",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "Diare",
+      "Konstipasi",
+      "Muntaber",
+      "Maag"
     ]
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question
@@ -69,4 +69,20 @@ let questions = [
   //     "option 4"
   //   ]
   // },
+
+  {
+    numb: 6,
+    question: "Urutan organ yang dilalui oleh makanan pada pencernaan manusia adalah ... .?",
+    answer: "Mulut – Kerongkongan – Lambung – Usus - Anus",
+    options: [
+      "Mulut – Tenggorokan – Lambung – Hati – Usus",
+      "Mulut – Kerongkongan – Hati – Lambung – Usus",
+      "Mulut – Tenggorokan – Usus – Lambung – Anus",
+      "Mulut – Kerongkongan – Lambung – Usus - Anus"
+    ]
+  },
+
+
+
+
 ];
