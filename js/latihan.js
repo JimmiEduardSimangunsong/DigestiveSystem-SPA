@@ -1,149 +1,149 @@
 //inisiasi soal dalam quiz
 const questions = [
     {
-        question: "How many days makes a week ?",
-        optionA: "10 days",
-        optionB: "14 days",
-        optionC: "5 days",
-        optionD: "7 days",
-        correctOption: "optionD"
+        question: "Lambung memiliki 3 bagian ini kecuali...?",
+        optionA: "Bagian atas(kardiak)",
+        optionB: "Bagian tengah (fundus)",
+        optionC: "Bagian klep (spingter)",
+        optionD: "Bagian bawah (pylorus)",
+        correctOption: "optionC"
     },
 
     {
-        question: "How many players are allowed on a soccer pitch ?",
-        optionA: "10 players",
-        optionB: "11 players",
-        optionC: "9 players",
-        optionD: "12 players",
+        question: "Enzim yang dihasilkan oleh pankreas yaitu....",
+        optionA: "Tripsin, amilase, dan lipase",
+        optionB: "Pepsin, tripsin, dan renin",
+        optionC: "Tripsin, renin, dan ptialin",
+        optionD: "Tripsin, renin, erepsin",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "Zat makanan yang dibutuhkan dalam pembentukan tulang yaitu...?",
+        optionA: "Kalsium dan vitamin C",
+        optionB: "Serat dan vitamin D",
+        optionC: "Kalsium dan vitamin D",
+        optionD: "Serat dan zat besi",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Nama bakteri yang membantu dalam proses yang terjadi di usus besar adalah...",
+        optionA: "Bakteri Escherichia",
+        optionB: "Bakteri Escherichia coli",
+        optionC: "Bakteri probiotik",
+        optionD: "Bakteri prebiotik",
         correctOption: "optionB"
     },
 
     {
-        question: "Who was the first President of USA ?",
-        optionA: "Donald Trump",
-        optionB: "Barack Obama",
-        optionC: "Abraham Lincoln",
-        optionD: "George Washington",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "30 days has ______ ?",
-        optionA: "January",
-        optionB: "December",
-        optionC: "June",
-        optionD: "August",
+        question: "Kadar air dalam sisa makanan diatur oleh...?",
+        optionA: "usus halus",
+        optionB: "poros usus",
+        optionC: "usus besar",
+        optionD: "usus dua belas jari",
         correctOption: "optionC"
     },
 
     {
-        question: "How manay hours can be found in a day ?",
-        optionA: "30 hours",
-        optionB: "38 hours",
-        optionC: "48 hours",
-        optionD: "24 hours",
+        question: "Fungsi hati adalah ini kecuali...?",
+        optionA: "menghasilkan empedu",
+        optionB: "menyimpan cadangan lemak",
+        optionC: "menyimpan glikogen",
+        optionD: "menyimpan vitamin c",
         correctOption: "optionD"
     },
 
     {
-        question: "Which is the longest river in the world ?",
-        optionA: "River Nile",
-        optionB: "Long River",
-        optionC: "River Niger",
-        optionD: "Lake Chad",
+        question: "Air liur yang dihasilkan oleh kelenjar ludah memiliki fungsi seperti berikut, kecuali...?",
+        optionA: "Mencegah mulut kekeringan",
+        optionB: "membasahi makanan",
+        optionC: "membunuh mikroorganisme",
+        optionD: "memberi suasana basah dalam mulut",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "usus halus berada dianatara...?",
+        optionA: "lambung dan usus besar",
+        optionB: "lambung dan usus kecil",
+        optionC: "lambung dan usus buntu",
+        optionD: "lambung dan kerongkongan",
         correctOption: "optionA"
     },
 
     {
-        question: "_____ is the hottest Continent on Earth ?",
-        optionA: "Oceania",
-        optionB: "Antarctica",
-        optionC: "Africa",
-        optionD: "North America",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "Which country is the largest in the world ?",
-        optionA: "Russia",
-        optionB: "Canada",
-        optionC: "Africa",
-        optionD: "Egypt",
+        question: "Proses pengeluaran zat sisa metabolisme yang tidak diperlukan disebut...?",
+        optionA: "Ekskresi",
+        optionB: "Defekasi",
+        optionC: "Sekresi",
+        optionD: "Respirasi",
         correctOption: "optionA"
     },
 
     {
-        question: "Which of these numbers is an odd number ?",
-        optionA: "Ten",
-        optionB: "Twelve",
-        optionC: "Eight",
-        optionD: "Eleven",
-        correctOption: "optionD"
+        question: "Di bawah ini adalah gangguan dan penyakit pada sisem pencernaan beserta penjelasannya yang tepat, kecuali...?",
+        optionA: "Diare (susah buang air besar)",
+        optionB: "Tonsilitis (pembengkakan amandel)",
+        optionC: "Diare (susah buang air besar)",
+        optionD: "Apendisitis (radang usus buntu)",
+        correctOption: "optionB"
     },
 
     {
-        question: `"You Can't see me" is a popular saying by`,
-        optionA: "Eminem",
-        optionB: "Bill Gates",
-        optionC: "Chris Brown",
-        optionD: "John Cena",
+        question: "Usus halus pada manusia dibagi menjadi tiga bagian utama, kecuali...?",
+        optionA: "Duodenum",
+        optionB:"Ileum",
+        optionC: "Jejunum",
+        optionD: "Apendiks",
         correctOption: "optionD"
-    },
-
-    {
-        question: "Where is the world tallest building located ?",
-        optionA: "Africa",
-        optionB: "California",
-        optionC: "Dubai",
-        optionD: "Italy",
-        correctOption: "optionC"
     },
 
   
     {
-        question: "The longest river in the United Kingdom is ?",
-        optionA: "River Severn",
-        optionB: "River Mersey",
-        optionC: "River Trent",
-        optionD: "River Tweed",
-        correctOption: "optionA"
+        question: "Urutan sistem pencernaan pada manusia adalah...?",
+        optionA: "Mulut – kerongkongan – usus halus – lambung – usu besar – anus",
+        optionB: "Mulut – tenggorokan – lambung – usus halus – usus besar – anus",
+        optionC: "Mulut – kerongkongan – lambung – usus halus – usus besar – anus",
+        optionD: "Mulut – tenggorokan – lambung – usus besar – usus halus – anus",
+        correctOption: "optionC"
     },
 
 
     {
-        question: "How many permanent teeth does a dog have ?",
-        optionA: "38",
-        optionB: "42",
-        optionC: "40",
-        optionD: "36",
-        correctOption: "optionB"
-    },
-
-    {
-        question: "Which national team won the football World cup in 2018 ?",
-        optionA: "England",
-        optionB: "Brazil",
-        optionC: "Germany",
-        optionD: "France",
+        question: "Gigi manusia yang berfungsi untuk menghaluskan makanan adalah...?",
+        optionA: "Gigi Seri",
+        optionB: "Gigi Taring",
+        optionC: "Gigi Susu",
+        optionD: "Gigi Geraham Depan & Belakang",
         correctOption: "optionD"
     },
 
     {
-        question: "Which US state was Donald Trump Born ?",
-        optionA: "New York",
-        optionB: "California",
-        optionC: "New Jersey",
-        optionD: "Los Angeles",
+        question: "Seseorang mengalami gangguan pencernaan makanan dengan gejala sukar buang air besar. Gangguan ini disebabkan...?",
+        optionA: "Kurang makanan yang berserat",
+        optionB: "Keracunan makanan",
+        optionC: "Kekurangan vitamin C",
+        optionD: "Infeksi kuman",
         correctOption: "optionA"
     },
 
     {
-        question: "How man states does Nigeria have ?",
-        optionA: "24",
-        optionB: "30",
-        optionC: "36",
-        optionD: "37",
-        correctOption: "optionC"
+        question: "Pada saat masa pertumbuhan sebaiknya seorang anak mendapat asupan bahan makanan yang banyak mengandung...?",
+        optionA: "Lemak",
+        optionB: "Protein",
+        optionC: "Mineral",
+        optionD: "Karbohidrat",
+        correctOption: "optionB"
+    },
+
+    {
+        question: "Sistem pencernaan yang melakukan gerak peristaltik pertama adalah...?”",
+        optionA: "Usus",
+        optionB: "Mulut",
+        optionC: "Lambung",
+        optionD: "Kerongkongan",
+        correctOption: "optionD"
     },
 
     {
@@ -156,57 +156,58 @@ const questions = [
     },
 
     {
-        question: "Los Angeles is also known as ?",
-        optionA: "Angels City",
-        optionB: "Shining city",
-        optionC: "City of Angels",
-        optionD: "Lost Angels",
+        question: "Organ pencernaan yang bersifat sangat asam, bertugas untuk membunuh bakteri dan mencerna protein adalah...?",
+        optionA: "Usus Halus",
+        optionB: "Mulut",
+        optionC: "Lambung",
+        optionD: "Usus Besar",
         correctOption: "optionC"
     },
 
     {
-        question: "What is the capital of Germany ?",
-        optionA: "Georgia",
-        optionB: "Missouri",
-        optionC: "Oklahoma",
-        optionD: "Berlin",
+        question: "selain sebagai penyusun enzim,protein juga memiliki fungsi ...?",
+        optionA: "sebagai sumber    energi pokok",
+        optionB: "Peninbun lemak ",
+        optionC: "memelihara tekanan osmosis darah ",
+        optionD: "merusak zat yang bersifat racun ",
+        correctOption: "optionD"
+
+    },
+
+    {
+        question: "protein pada saluran pencernaan dipecah menjadi senyawa yang dinamakan...?",
+        optionA: "kolesterol",
+        optionB: "vitamin",
+        optionC: "glukosa",
+        optionD: "asam amino",
         correctOption: "optionD"
     },
 
     {
-        question: "How many sides does an hexagon have ?",
-        optionA: "Six",
-        optionB: "Sevene",
-        optionC: "Four",
-        optionD: "Five",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "How many planets are currently in the solar system ?",
-        optionA: "Eleven",
-        optionB: "Seven",
-        optionC: "Nine",
-        optionD: "Eight",
+        question: "fungsi hati yang berhubungan dengan fungsi pencernaan makanan yaitu ...?",
+        optionA: "menghancurkan eritrosit tua",
+        optionB: "menetralkan racun",
+        optionC: "menghasilkan darah",
+        optionD: "mengasilkan empedu ",
         correctOption: "optionD"
     },
 
     {
-        question: "Which Planet is the hottest ?",
-        optionA: "Jupitar",
-        optionB: "Mercury",
-        optionC: "Earth",
-        optionD: "Venus",
-        correctOption: "optionB"
+        question: "berikut ini yang tidak termasuk kelenjar pencernaan adalah...?",
+        optionA: "hati ",
+        optionB: "ludah ",
+        optionC: "lambung ",
+        optionD: "jantung",
+        correctOption: "optionD"
     },
 
     {
-        question: "where is the smallest bone in human body located?",
-        optionA: "Toes",
-        optionB: "Ears",
-        optionC: "Fingers",
-        optionD: "Nose",
-        correctOption: "optionB"
+        question: "berikut ini yang termasuk fungsi lambung yang mempunyai fungsi sebagai motoris yaitu ...",
+        optionA: "sekresi mukus",
+        optionB: "fungsi reservoir",
+        optionC: "sintesis dan pengeluaran gastrin",
+        optionD: "mencernakan protein oleh pepsin dan HCI",
+        correctOption: "optionB "
     },
 
     {
