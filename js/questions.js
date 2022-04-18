@@ -1,8 +1,8 @@
-// creating an array and passing the number, questions, options, and answers
-let questions = [
+// creating an array and passing the number, questionssss, options, and answers
+let questionss = [
     {
     numb: 1,
-    question: "Nama bakteri yang membantu dalam proses yang terjadi di usus besar adalah?",
+    questionss: "Nama bakteri yang membantu dalam proses yang terjadi di usus besar adalah?",
     answer: "Bakteri Escherichia coli",
     options: [
       "Bakteri Escherichia",
@@ -13,7 +13,7 @@ let questions = [
   },
     {
     numb: 2,
-    question: "Usus halus berada di antara....?",
+    questionss: "Usus halus berada di antara....?",
     answer: "Lambung dan usus besar",
     options: [
       "Lambung dan usus besar",
@@ -24,7 +24,7 @@ let questions = [
   },
     {
     numb: 3,
-    question: "Gerakan peristaltik terdapat di ....?",
+    questionss: "Gerakan peristaltik terdapat di ....?",
     answer: "Esofagus",
     options: [
       "Usus 12 jari",
@@ -35,7 +35,7 @@ let questions = [
   },
     {
     numb: 4,
-    question: "Usus halus terdiri dari 3 bagian yaitu ...?",
+    questionss: "Usus halus terdiri dari 3 bagian yaitu ...?",
     answer: "Duodenum, Jejunum, Ileum",
     options: [
       "Usus besar, Usus panjang, Usus 12 jari",
@@ -46,7 +46,7 @@ let questions = [
   },
     {
     numb: 5,
-    question: "Kelainan pada sistem pencernaan yang disebabkan jumlah asam klorida dalam lambung berlebihan disebut …?",
+    questionss: "Kelainan pada sistem pencernaan yang disebabkan jumlah asam klorida dalam lambung berlebihan disebut …?",
     answer: "Maag",
     options: [
       "Diare",
@@ -55,13 +55,13 @@ let questions = [
       "Maag"
     ]
   },
-  // you can uncomment the below codes and make duplicate as more as you want to add question
+  // you can uncomment the below codes and make duplicate as more as you want to add questionss
   // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
 
   //   {
   //   numb: 6,
-  //   question: "Your Question is Here",
-  //   answer: "Correct answer of the question is here",
+  //   questionss: "Your questionss is Here",
+  //   answer: "Correct answer of the questionss is here",
   //   options: [
   //     "Option 1",
   //     "option 2",
@@ -72,7 +72,7 @@ let questions = [
 
   {
     numb: 6,
-    question: "Urutan organ yang dilalui oleh makanan pada pencernaan manusia adalah ... .?",
+    questionss: "Urutan organ yang dilalui oleh makanan pada pencernaan manusia adalah ... .?",
     answer: "Mulut – Kerongkongan – Lambung – Usus - Anus",
     options: [
       "Mulut – Tenggorokan – Lambung – Hati – Usus",

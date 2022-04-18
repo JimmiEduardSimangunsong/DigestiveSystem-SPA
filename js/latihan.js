@@ -230,6 +230,13 @@ const questions = [
 ]
 
 
+
+    $('#latihan').ready(function(){
+        NextQuestion(0)
+    })
+
+
+
 let shuffledQuestions = [] //empty array to hold shuffled selected questions
 
 function handleQuestions() { 
@@ -248,8 +255,11 @@ let playerScore = 0
 let wrongAttempt = 0 
 let indexNumber = 0
 
+
+
 // function for displaying next question in the array to dom
 function NextQuestion(index) {
+    console.log("question dipanggil")
     handleQuestions()
     const currentQuestion = shuffledQuestions[index]
     document.getElementById("question-number").innerHTML = questionNumber
@@ -380,6 +390,11 @@ function closeScoreModal() {
     shuffledQuestions = []
     NextQuestion(indexNumber)
     document.getElementById('score-modal').style.display = "none"
+}
+
+function quiteLatihan(){
+    window.location.reload(); 
+
 }
 
 //function to close warning modal

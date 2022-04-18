@@ -1,9 +1,10 @@
-<div class="latar">
-        <a class="tag" ><p>Latihan</p></a>
-    <div class="materi">
 
-    <!-- awal latihan -->
-    <div class="latihan" onload="NextQuestion(0)">
+<div class="latar">
+        <a class="tag" ><p>PETUNJUK</p></a>
+    <div class="materi">
+    
+        <!-- awal latihan -->
+        <div id="latihan">
     <main>
         <!-- creating a modal for when quiz ends -->
         <div class="modal-container" id="score-modal">
@@ -22,6 +23,7 @@
               
                 <div class="modal-button-container">
                     <button onclick="closeScoreModal()">Continue</button>
+                    <button onclick="quiteLatihan()">Keluar Kuis</button>
                 </div>
               
             </div>
@@ -85,23 +87,28 @@
 
         </div>
     </main>
-</div>
-<script src="js/index.js"></script>
 
-    <!-- akhir latihan -->
-       
-       
+    <script src="index.js"></script>
+
+    <script src="js/latihan.js"></script>
+    
+</div>
+
+        
+         <!-- akhir latihan -->
+  
     </div>
-    </div>
+</div>
     <div class="home">
         <a class="wrap"></a>
     </div>
 
    
+    
+    
 
          
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
+    
     <script type="text/javascript">
        $(document).ready(function () {
 
@@ -117,3 +124,5 @@
 
       });
     }); 
+
+    </script>

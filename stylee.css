@@ -17,6 +17,8 @@ body{
     overflow: hidden;
 }
 
+
+
 .judul{
     /* background-color: aqua; */
     margin: 0 auto;
@@ -913,26 +915,16 @@ footer button.show{
 
 /* css halaman latihan */
 
-  
-html, .latihan{
-    height: 100%;
-}
-
-
-.latihan{
-    font-family: 'Montserrat', serif;
-    
-}
 
 main{
     width: 100%;
-    min-height: 100vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: black;
-    /* background: url('../assets/background_image.jpg'); */
+    background: url('../assets/background_image.jpg');
     background-color : black;
     background-repeat: no-repeat;
     background-size: cover;
@@ -963,8 +955,8 @@ main{
 }
 
 .game-question-container{
-    width: 60%;
-    height: 5rem;
+    width: 80%;
+    height: 8rem;
     display: flex;
     align-items: center;
     justify-content: center;
