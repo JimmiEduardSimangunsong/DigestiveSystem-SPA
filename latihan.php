@@ -1,14 +1,12 @@
 
 <div class="latar">
-        <a class="tag" ><p>PETUNJUK</p></a>
+        <a class="tag" ><p>Yok Latihan</p></a>
     <div class="materi">
 
-    <div class="start_btn"><button id="tombol">Mulai Kuis</button></div>
+    <div class="start_btn"><button id="tombol">Mulai Latihan</button></div>
     
       
-
-        
-         <!-- akhir latihan -->
+        <!-- Tempat ini isi dari lembar latihan -->
   
     </div>
 </div>

@@ -24,7 +24,7 @@
     <!-- Quiz Box -->
     <div class="quiz_box">
         <header>
-            <div class="title">Kuis Pencernaan</div>
+            <div class="title">Quiz Pencernaan</div>
             <div class="timer">
                 <div class="time_left_txt">Sisa Waktu</div>
                 <div class="timer_sec">15</div>
@@ -52,13 +52,13 @@
         <div class="icon">
             <i class="fas fa-crown"></i>
         </div>
-        <div class="complete_text">Kamu Telah Menyelesaikan Seluruh Kuis!</div>
+        <div class="complete_text">Kamu Telah Menyelesaikan Seluruh Quiz!</div>
         <div class="score_text">
             <!-- Here I've inserted Score Result from JavaScript -->
         </div>
         <div class="buttons">
-            <button class="restart">Ulangi Kuis</button>
-            <button class="quit">Keluar Kuis</button>
+            <button class="restart">Ulangi Quiz</button>
+            <button class="quit">Keluar Quiz</button>
         </div>
     </div>
     <!-- Inside this JavaScript file I've inserted Questions and Options only -->

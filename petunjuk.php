@@ -8,8 +8,9 @@
         -Petunjuk,berisi petunjuk penggunaan web media pembelajaran<br>
         -KI & KD,berisi kompetensi inti dan kompetensi dasar<br>
         -Materi,berisi pembahasan materi tentang sistem pencernaan manusia<br>
-        -Kuis,berisi soal soal untuk menguji pmahaman user<br>
-        -Profil,berisi biodata pengembang web media pembelajaran<br>
+        -Quiz,berisi soal soal dengan waktu untuk menguji pemahaman user <br>
+        -Latihan,berisi latihan soal untuk menguji pemahaman user<br>
+        -Feedback,berisi tanggapan serta kritikan & saran bagi user setelah menggunakan media pembelajaran<br>
         2.Untuk beralih antar bagian silahkan pilih menu dibagian bawah<br>
         3.Untuk kembali kehalaman utama silahkan klik tombol Home<br></p>
     </div>

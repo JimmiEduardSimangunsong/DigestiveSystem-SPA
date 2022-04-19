@@ -8,6 +8,12 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    <!-- untuk judul materi -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+
     
     <!-- UNTUK JUDUL BESAR -->
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@700&family=Fredericka+the+Great&family=Poppins:wght@100&display=swap" rel="stylesheet">
@@ -75,7 +81,7 @@
             <a class="icon7"></a>
             <div class="overlay">
                 <div class="content">
-                    <h3>US</h3>
+                    <h3>Feedback</h3>
                 </div>
             </div>
         </div>
@@ -106,6 +112,8 @@
               $('#konten').load('quiz.php');
             }else if(menu == "icon6"){
             $('#konten').load('latihan.php');
+            }else if(menu == "icon7"){
+            $('#konten').load('feedback.php');
             }
 
       });
