@@ -165,7 +165,7 @@ body{
      top: 50%;
     left: 50%;
      transform: translate(-50%,-50%); 
-    color: white;
+    color: bla;
     text-align: center;
 }
 
@@ -212,13 +212,14 @@ body{
 /* untuk tombol kembali */
 .kembali{
     border-radius: 100%;
-    height:60px;
-    width:70px;
+    height:50px;
+    width:50px;
     background: url(gambar/left.png); 
     background-size: cover;
     background-position: center;
     margin-left: 80px;
     cursor: pointer;
+    margin-top: 5px;
 
 }
 
@@ -247,7 +248,7 @@ body{
     width: 90%;
     height: 60vh;
     /* padding: 20px; */
-    background:#caff78;
+    background:#dff6be;
     /* code di bawah ini akan membuat div berada di tengah-tengah */
     position: absolute;
     top: 47%;
@@ -419,7 +420,7 @@ body{
 /* isi materi di zat makanan */
 .isimateri {
     margin-top: 20px;
-    background:beige;
+    background:#dff6be;
     width: 90%;
     height: 60vh;
     margin-left: 60px;
@@ -500,7 +501,7 @@ body{
 
 /* isi materi di zat makanan */
 .isimateri2 {
-    background:beige;
+    background:#dff6be;
     width: 90%;
     height: 60vh;
     margin-left: 60px; 
@@ -1211,6 +1212,7 @@ input[type=radio]:checked ~ .option {
 
 
   /* css halaman feedback */
+
   input[type=text], select, textarea {    
     width: 100%;    
     padding: 12px;    
@@ -1234,11 +1236,11 @@ input[type=radio]:checked ~ .option {
   input[type=submit] {    
     background-color: rgb(37, 116, 161);    
     color: white;    
-    padding: 12px 20px;    
+    padding: 10px 15px;    
     border: none;    
     border-radius: 4px;    
     cursor: pointer;    
-    float: right;    
+    float: right;
   }    
       
   input[type=submit]:hover {    
@@ -1264,10 +1266,6 @@ input[type=radio]:checked ~ .option {
     margin-top: 6px;
   } 
 
-  .tbl_submit{
-    background: #23903c;
-  }
-
   
 
       
@@ -1276,5 +1274,329 @@ input[type=radio]:checked ~ .option {
     content: "";    
     display: table;    
     clear: both;    
-  }    
+  }  
+  
+  
+  /* untuk responsive */
+  /* Css untuk tampilan tablet */
+@media all and (min-width: 768px) and (max-width: 991px) {
+
+    .judul{
+        font-size: medium;
+    }
+
+    .petunjuk{
+        margin-top: 20px;
+       
+    }
+
+    .petunjuk p{
+        font-size: 3vh;
+    }
+    
+    .petunjuk h3{
+        font-size: 4vh;
+    }
+
+    
+    .container .box:hover{
+        background:#74eafc;
+        cursor: pointer;
+    }
+    
+    .container .box img{
+        position: relative;
+        max-width: 100px;
+        margin-bottom: 10px;
+    }
+    
+    .container .box:nth-child(1){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .container .box:nth-child(2){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .container .box:nth-child(3){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .container .box:nth-child(4){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .container .box:nth-child(5){
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+
+
+
+    .zatmakanan .boxisi img{
+        position: relative;
+        max-width: 50px;
+    }
+    
+
+    
+    
+    .zatmakanan .boxisi:nth-child(1){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .zatmakanan .boxisi:nth-child(2){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .zatmakanan .boxisi:nth-child(3){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .zatmakanan .boxisi:nth-child(4){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .zatmakanan .boxisi:nth-child(5){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .zatmakanan .boxisi:nth-child(6){
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+
+
+    .isimateri {
+        height: 50vh;
+        margin-left: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    
+    }
+    
+    .isimateri h1{
+        font-family: 'Rampart One', cursive;
+       
+    }
+    
+    .isimateri p{
+        font-size: 15px;
+    }
+
+    .gambar img{
+        width: 75%;
+        
+    }
+
+
+    .isimateri2 {
+        height: 50vh;
+        margin-left: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    
+    }
+    
+    .struktur{
+        grid-area: struktur;
+        min-height: 100px;
+        padding-left: 40px;
+        width: 300px;
+    }
+    .struktur img{
+        max-width: 80%;
+        height: auto;
+    }
+    
+    .struktur h1{
+        font-family: 'Rampart One', cursive;
+        font-size: 18px;
+    }
+    
+    
+    .keterangan{
+        grid-area: keterangan;
+        width: 400px;
+        
+    }
+    
+    .keterangan p{
+        font-size: 13px;
+        padding-right: 50px;
+        padding-left: 20px;
+    
+    }
+    
+    .keterangan h1{
+        font-family: 'Rampart One', cursive;
+        font-size: 18px;
+        padding-left: 20px;
+    }
+
+    .back{
+        margin-top: 10px;
+    }
+
+    .kembali{
+        height:50px;
+        width:50px;
+
+    
+    }
+
+
+    .organ .boxnya:nth-child(1){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .organ .boxnya:nth-child(2){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .organ .boxnya:nth-child(3){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .organ .boxnya:nth-child(4){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .organ .boxnya:nth-child(5){
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    
+    .organ .boxnya:nth-child(6){
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+
+
+
+    .rawat .boxrawat img{
+        position: relative;
+        max-width: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .rawat .boxrawat:nth-child(1){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .rawat .boxrawat:nth-child(2){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .rawat .boxrawat:nth-child(3){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .rawat .boxrawat:nth-child(4){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .rawat .boxrawat:nth-child(5){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .rawat .boxrawat:nth-child(6){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+
+
+    .quiz_box{
+        width: 400px;
+        height: 500px;
+    }
+
+
+    section .que_text{
+        font-size: 13px;
+    }
+
+    section .que_text{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+
+    .game-quiz-container{
+        width: 40rem;
+        height: 25rem;
+    }
+
+
+    .game-details-container h1{
+        font-size: 1rem;
+    }
+    
+    .game-question-container{
+        height: 7rem;
+    }
+    
+    .game-question-container h1{
+        font-size: 1rem;
+    }
+
+    section .option_list .option{
+        font-size: 10px;
+       
+    }
+
+
+    .container2 {    
+        border-radius: 5px;    
+        background-color: #f2f2f2;    
+        padding: 5px;
+      }    
+          
+      .col-25 {    
+        float: left;    
+        width: 15%;    
+        margin-top: 6px;
+        padding-left: 100px;  
+      }    
+          
+      .col-75 {    
+        float: left;    
+        width: 50%;    
+        margin-top: 2px;
+        
+      } 
+    
+      .tbl_submit{
+        background: #23903c;
+      }
+
+
+
+    
+    
+    
+    
+
+
+
+    
+}
       

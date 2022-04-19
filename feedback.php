@@ -34,10 +34,10 @@
         <label for="feed_back">Feed Back</label>    
       </div>    
       <div class="col-75">    
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>    
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>    
       </div>    
     </div>    
-    <div class="row">  
+    <div id="tb_submit" class="row">  
       <input type="submit" value="Submit">    
     </div>    
   </form>    

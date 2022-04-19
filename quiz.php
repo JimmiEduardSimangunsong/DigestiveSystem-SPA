@@ -5,7 +5,7 @@
 <div class="materi">
 
  <!-- start Quiz button -->
- <div class="start_btn"><button>Mulai Kuis</button></div>
+ <div class="start_btn"><button>Mulai Quiz</button></div>
     <!-- Info Box -->
     <div class="info_box">
         <div class="info-title"><span>Beberapa Peraturan Dalam Kuis Ini</span></div>
@@ -68,6 +68,7 @@
 
     <!-- akhir quizz -->
 
+</div>
 </div>
 
 <div class="home">

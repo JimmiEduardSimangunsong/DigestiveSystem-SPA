@@ -207,7 +207,7 @@ const questions = [
         optionB: "fungsi reservoir",
         optionC: "sintesis dan pengeluaran gastrin",
         optionD: "mencernakan protein oleh pepsin dan HCI",
-        correctOption: "optionB "
+        correctOption: "optionB"
     },
 
     {
