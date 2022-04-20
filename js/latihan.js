@@ -147,12 +147,12 @@ const questions = [
     },
 
     {
-        question: "____ is the capital of Nigeria ?",
-        optionA: "Abuja",
-        optionB: "Lagos",
-        optionC: "Calabar",
-        optionD: "Kano",
-        correctOption: "optionA"
+        question: " Sumber karbohidrat bisa di dapat dari...?",
+        optionA: " kacang tanah, kedelai, dan kacang merah",
+        optionB: "mentega, keju, dan susu",
+        optionC: "tempe, kecap, tahu",
+        optionD: "jagung, padi, dan gandum",
+        correctOption: "optionD"
     },
 
     {
@@ -211,21 +211,21 @@ const questions = [
     },
 
     {
-        question: "How many hearts does an Octopus have ?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three",
-        optionD: "Four",
-        correctOption: "optionC"
+        question: "Sumber lemak bisa didapat dari...?",
+        optionA: " kacang tanah, kedelai, dan kacang merah",
+        optionB: "mentega, keju, dan susu",
+        optionC: "tempe, kecap, tahu",
+        optionD: "jagung, padi, dan gandum",
+        correctOption: "optionB"
     },
 
     {
-        question: "How many teeth does an adult human have ?",
-        optionA: "28",
-        optionB: "30",
-        optionC: "32",
-        optionD: "36",
-        correctOption: "optionC"
+        question: " Berikut ini yang tidak termasuk fungsi protein adalah....?",
+        optionA: "Berperan dalam proses metabolisme tubuh",
+        optionB: "Menghasilkan kalori dan energi",
+        optionC: "Membantu proses metabolisme dalam tubuh",
+        optionD: "Sebagai unsur pembangun jaringan yang rusak",
+        correctOption: "optionA"
     }
 
 ]
