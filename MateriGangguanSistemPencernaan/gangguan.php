@@ -32,6 +32,11 @@
                 <p>GASTRITIS (TUKAK LAMBUNG/MAAG)<p> 
             </div>
         </div>
+        <div class="boxnya">
+            <div class="isinya" id="latihan">
+                <p>LATIHAN<p> 
+            </div>
+        </div>
     </div>
 
     <!-- <div id="isinya"></div> -->
@@ -88,6 +93,9 @@
               $('.isimateri2').load('MateriGangguanSistemPencernaan/tukak.php');
             }else if(menu == "parotitis"){
               $('.isimateri2').load('MateriGangguanSistemPencernaan/gondongan.php');
+            }
+            else if(menu == "latihan"){
+              $('.isimateri2').load('MateriGangguanSistemPencernaan/latihanGSP.php');
             }
 
       });
