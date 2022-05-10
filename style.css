@@ -959,8 +959,8 @@ main{
 }
 
 .game-quiz-container{
-    width: 40rem;
-    height: 30rem;
+    width: 50rem;
+    height: 25rem;
     background-color: white;
     display: flex;
     flex-direction: column;
