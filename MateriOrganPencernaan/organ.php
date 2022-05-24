@@ -7,11 +7,11 @@
                 <img src="gambar/left.png" alt=""> 
             </div>
         </div>
-        <div class="boxnya">
+        <!-- <div class="boxnya">
             <div class="isinya" id="sistem">
                 <p>GAMBAR SISTEM ORGAN PENCERNAAN<p>   
             </div>
-        </div>
+        </div> -->
         <div class="boxnya">
             <div class="isinya" id="mulut">
                 <p>MULUT<p>   
@@ -40,6 +40,11 @@
         <div class="boxnya">
             <div class="isinya" id="ususbesar">
                 <p>USUS BESAR<p>   
+            </div>
+        </div>
+        <div class="boxnya">
+            <div class="isinya" id="latihan">
+                <p>LATIHAN<p>   
             </div>
         </div>
     </div>
@@ -80,7 +85,7 @@
 
 <script type="text/javascript">
        $(document).ready(function () {
-       $('.isimateri2').load('MateriOrganPencernaan/sistemorgan.php');
+       $('.isimateri2').load('MateriOrganPencernaan/mulut.php');
 
       $('.boxnya').click(function (e) { 
           e.preventDefault();
@@ -100,10 +105,12 @@
               $('.isimateri2').load('MateriOrganPencernaan/ususbesar.php');
             }else if(menu == "usushalus"){
               $('.isimateri2').load('MateriOrganPencernaan/usushalus.php');
-            }else if(menu == "sistem"){
-              $('.isimateri2').load('MateriOrganPencernaan/sistemorgan.php');
             }
-
+            // }else if(menu == "sistem"){
+            //   $('.isimateri2').load('MateriOrganPencernaan/sistemorgan.php');
+            else if(menu == "latihan"){
+              $('.isimateri2').load('MateriOrganPencernaan/latihanMOP.php');
+            }
       });
     }); 
 

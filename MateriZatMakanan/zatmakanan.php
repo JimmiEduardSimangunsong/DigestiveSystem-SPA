@@ -37,12 +37,18 @@
                 <p>AIR<p>   
             </div>
         </div>
+        <div class="boxisi">
+            <div class="isinya" id="latihan">
+                <p>Latihan<p>   
+            </div>
+        </div>
     </div>
 
     <!-- <div id="isinya"></div> -->
     <div class="isimateri">
     
     </div>
+    
 
   </div>
 </div>
@@ -95,6 +101,8 @@
               $('.isimateri').load('MateriZatMakanan/mineral.php');
             }else if(menu == "air"){
               $('.isimateri').load('MateriZatMakanan/air.php');
+            }else if(menu == "latihan"){
+              $('.isimateri').load('MateriZatMakanan/latihanMZM.php');
             }
 
       });
