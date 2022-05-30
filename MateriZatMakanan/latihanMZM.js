@@ -205,7 +205,7 @@ function handleEndGame() {
         remark = "Excellent, Keep the good work going."
         remarkColor = "green"
     }
-    const playerGrade = (playerScore ) * 100
+    const playerGrade = (playerScore ) * 20
 
     //data to display to score board
     document.getElementById('remarks').innerHTML = remark
