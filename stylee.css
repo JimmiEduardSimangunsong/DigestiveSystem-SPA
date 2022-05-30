@@ -423,7 +423,7 @@ body{
     background:#dff6be;
     width: 90%;
     height: 60vh;
-    margin-left: 60px;
+    margin-left: 20px;
     padding-left: 100px;
 
 }
@@ -562,7 +562,7 @@ body{
 
 .rawat .boxrawat{
     color: #fff;
-    background:#4d798a;
+    background:#87ed6a;
     display: grid;
     font-size: 20px;
     place-items: center;
@@ -570,10 +570,6 @@ body{
     transition: 0.5s;
 }
 
-.rawat .boxrawat:hover{
-    background:#74eafc;
-    cursor: pointer;
-}
 
 .rawat .boxrawat img{
     position: relative;

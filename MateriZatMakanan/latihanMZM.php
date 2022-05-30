@@ -43,7 +43,7 @@
       console.log(menu)
 
       if(menu == "tombol"){
-          $('.isimateri').load('latihan/lembarlatihanMOP.php');
+          $('.isimateri').load('latihan/lembarlatihanMZM.php');
         }
 
   });

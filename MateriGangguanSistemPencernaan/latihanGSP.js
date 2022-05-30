@@ -1,85 +1,41 @@
 //inisiasi soal dalam quiz
 const questions = [
     {
-        question: "Lambung memiliki 3 bagian ini kecuali...?",
-        optionA: "Bagian atas(kardiak)",
-        optionB: "Bagian tengah (fundus)",
-        optionC: "Bagian klep (spingter)",
-        optionD: "Bagian bawah (pylorus)",
-        correctOption: "optionC"
+        question: "Organ pencernaan yang bersifat sangat asam, bertugas untuk membunuh bakteri dan mencerna protein adalah ...?",
+        optionA: "Usus Halus",
+        optionB: "Mulut",
+        optionC: "Lambung",
+        optionD: "Usus Besar",
+        correctOption: "optionC",
     },
 
     {
-        question: "Enzim yang dihasilkan oleh pankreas yaitu....",
-        optionA: "Tripsin, amilase, dan lipase",
-        optionB: "Pepsin, tripsin, dan renin",
-        optionC: "Tripsin, renin, dan ptialin",
-        optionD: "Tripsin, renin, erepsin",
+        question: "Sebutkan penyebab terjadinya gannguan pencernaan obesitas ...",
+        optionA: "Kandungan lemak berlebihan",
+        optionB: "Kandungan vitamin A tercukupi",
+        optionC: "Kandungan zat besi berlebihan",
+        optionD: "Kurangnya asupan vitamin e",
         correctOption: "optionA"
     },
 
     {
-        question: "Zat makanan yang dibutuhkan dalam pembentukan tulang yaitu...?",
-        optionA: "Kalsium dan vitamin C",
-        optionB: "Serat dan vitamin D",
-        optionC: "Kalsium dan vitamin D",
-        optionD: "Serat dan zat besi",
+        question: " Satria mengalami gangguan pada lambung (Magh) karena sering mengkonsumsi makanan yang terlalu pedas dan asam, sehingga dapat meningkatkan asam lambung. Cara yang dilakukan agar terhindar dari penyakit tersebut adalah...?",
+        optionA: "Merokok",
+        optionB: ". Makan makanan yang mengandung asam",
+        optionC: " Makan teratur, tidak mengkonsumsi makanan pedas dan asam",
+        optionD: "Meminum minuman keras seperti alkoholi",
         correctOption: "optionC"
     },
 
     {
-        question: "Nama bakteri yang membantu dalam proses yang terjadi di usus besar adalah...",
-        optionA: "Bakteri Escherichia",
-        optionB: "Bakteri Escherichia coli",
-        optionC: "Bakteri probiotik",
-        optionD: "Bakteri prebiotik",
-        correctOption: "optionB"
-    },
-
-    {
-        question: "Kadar air dalam sisa makanan diatur oleh...?",
-        optionA: "usus halus",
-        optionB: "poros usus",
-        optionC: "usus besar",
-        optionD: "usus dua belas jari",
+        question: "Hal apa saja yang kita lakukan untuk menjaga kesehatan organ pencernaan ...",
+        optionA: "Makan-makanan cepat saji, minum-minuman bersoda",
+        optionB: "Kurang istirahat, makan tidak teratur",
+        optionC: "Mencuci tangan sebelum makan, makan teratur 3 kali sehari",
+        optionD: "Kurang minum air putih, makan tidak teratur",
         correctOption: "optionC"
     },
 
-    {
-        question: "Fungsi hati adalah ini kecuali...?",
-        optionA: "menghasilkan empedu",
-        optionB: "menyimpan cadangan lemak",
-        optionC: "menyimpan glikogen",
-        optionD: "menyimpan vitamin c",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Air liur yang dihasilkan oleh kelenjar ludah memiliki fungsi seperti berikut, kecuali...?",
-        optionA: "Mencegah mulut kekeringan",
-        optionB: "membasahi makanan",
-        optionC: "membunuh mikroorganisme",
-        optionD: "memberi suasana basah dalam mulut",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "usus halus berada dianatara...?",
-        optionA: "lambung dan usus besar",
-        optionB: "lambung dan usus kecil",
-        optionC: "lambung dan usus buntu",
-        optionD: "lambung dan kerongkongan",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "Proses pengeluaran zat sisa metabolisme yang tidak diperlukan disebut...?",
-        optionA: "Ekskresi",
-        optionB: "Defekasi",
-        optionC: "Sekresi",
-        optionD: "Respirasi",
-        correctOption: "optionA"
-    },
 
     {
         question: "Di bawah ini adalah gangguan dan penyakit pada sisem pencernaan beserta penjelasannya yang tepat, kecuali...?",
@@ -90,34 +46,6 @@ const questions = [
         correctOption: "optionB"
     },
 
-    {
-        question: "Usus halus pada manusia dibagi menjadi tiga bagian utama, kecuali...?",
-        optionA: "Duodenum",
-        optionB:"Ileum",
-        optionC: "Jejunum",
-        optionD: "Apendiks",
-        correctOption: "optionD"
-    },
-
-  
-    {
-        question: "Urutan sistem pencernaan pada manusia adalah...?",
-        optionA: "Mulut – kerongkongan – usus halus – lambung – usu besar – anus",
-        optionB: "Mulut – tenggorokan – lambung – usus halus – usus besar – anus",
-        optionC: "Mulut – kerongkongan – lambung – usus halus – usus besar – anus",
-        optionD: "Mulut – tenggorokan – lambung – usus besar – usus halus – anus",
-        correctOption: "optionC"
-    },
-
-
-    {
-        question: "Gigi manusia yang berfungsi untuk menghaluskan makanan adalah...?",
-        optionA: "Gigi Seri",
-        optionB: "Gigi Taring",
-        optionC: "Gigi Susu",
-        optionD: "Gigi Geraham Depan & Belakang",
-        correctOption: "optionD"
-    },
 
     {
         question: "Seseorang mengalami gangguan pencernaan makanan dengan gejala sukar buang air besar. Gangguan ini disebabkan...?",
@@ -128,96 +56,6 @@ const questions = [
         correctOption: "optionA"
     },
 
-    {
-        question: "Pada saat masa pertumbuhan sebaiknya seorang anak mendapat asupan bahan makanan yang banyak mengandung...?",
-        optionA: "Lemak",
-        optionB: "Protein",
-        optionC: "Mineral",
-        optionD: "Karbohidrat",
-        correctOption: "optionB"
-    },
-
-    {
-        question: "Sistem pencernaan yang melakukan gerak peristaltik pertama adalah...?”",
-        optionA: "Usus",
-        optionB: "Mulut",
-        optionC: "Lambung",
-        optionD: "Kerongkongan",
-        correctOption: "optionD"
-    },
-
-    {
-        question: " Sumber karbohidrat bisa di dapat dari...?",
-        optionA: " kacang tanah, kedelai, dan kacang merah",
-        optionB: "mentega, keju, dan susu",
-        optionC: "tempe, kecap, tahu",
-        optionD: "jagung, padi, dan gandum",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Organ pencernaan yang bersifat sangat asam, bertugas untuk membunuh bakteri dan mencerna protein adalah...?",
-        optionA: "Usus Halus",
-        optionB: "Mulut",
-        optionC: "Lambung",
-        optionD: "Usus Besar",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "selain sebagai penyusun enzim,protein juga memiliki fungsi ...?",
-        optionA: "sebagai sumber    energi pokok",
-        optionB: "Peninbun lemak ",
-        optionC: "memelihara tekanan osmosis darah ",
-        optionD: "merusak zat yang bersifat racun ",
-        correctOption: "optionD"
-
-    },
-
-    {
-        question: "protein pada saluran pencernaan dipecah menjadi senyawa yang dinamakan...?",
-        optionA: "kolesterol",
-        optionB: "vitamin",
-        optionC: "glukosa",
-        optionD: "asam amino",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "fungsi hati yang berhubungan dengan fungsi pencernaan makanan yaitu ...?",
-        optionA: "menghancurkan eritrosit tua",
-        optionB: "menetralkan racun",
-        optionC: "menghasilkan darah",
-        optionD: "mengasilkan empedu ",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "berikut ini yang tidak termasuk kelenjar pencernaan adalah...?",
-        optionA: "hati ",
-        optionB: "ludah ",
-        optionC: "lambung ",
-        optionD: "jantung",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "berikut ini yang termasuk fungsi lambung yang mempunyai fungsi sebagai motoris yaitu ...",
-        optionA: "sekresi mukus",
-        optionB: "fungsi reservoir",
-        optionC: "sintesis dan pengeluaran gastrin",
-        optionD: "mencernakan protein oleh pepsin dan HCI",
-        correctOption: "optionB"
-    },
-
-    {
-        question: "Sumber lemak bisa didapat dari...?",
-        optionA: " kacang tanah, kedelai, dan kacang merah",
-        optionB: "mentega, keju, dan susu",
-        optionC: "tempe, kecap, tahu",
-        optionD: "jagung, padi, dan gandum",
-        correctOption: "optionB"
-    },
 
     {
         question: " Berikut ini yang tidak termasuk fungsi protein adalah....?",
@@ -242,7 +80,7 @@ let shuffledQuestions = [] //empty array to hold shuffled selected questions
 
 function handleQuestions() { 
     //function to shuffle and push 10 questions to shuffledQuestions array
-    while (shuffledQuestions.length <= 9) {
+    while (shuffledQuestions.length <= 4) {
         const random = questions[Math.floor(Math.random() * questions.length)]
         if (!shuffledQuestions.includes(random)) {
             shuffledQuestions.push(random)
@@ -326,7 +164,7 @@ function handleNextQuestion() {
     unCheckRadioButtons()
     //delays next question displaying for a second
     setTimeout(() => {
-        if (indexNumber <= 9) {
+        if (indexNumber <= 4) {
             NextQuestion(indexNumber)
         }
         else {
@@ -358,19 +196,19 @@ function handleEndGame() {
     let remarkColor = null
 
     // condition check for player remark and remark color
-    if (playerScore <= 3) {
+    if (playerScore <= 2) {
         remark = "Bad Grades, Keep Practicing."
         remarkColor = "red"
     }
-    else if (playerScore >= 4 && playerScore < 7) {
+    else if (playerScore >= 2 && playerScore < 4) {
         remark = "Average Grades, You can do better."
         remarkColor = "orange"
     }
-    else if (playerScore >= 7) {
+    else if (playerScore >= 5) {
         remark = "Excellent, Keep the good work going."
         remarkColor = "green"
     }
-    const playerGrade = (playerScore / 10) * 100
+    const playerGrade = (playerScore ) * 20
 
     //data to display to score board
     document.getElementById('remarks').innerHTML = remark
